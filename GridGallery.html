@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwand Grid Gallery</title>
+    <!-- favicon -->
+    <link rel="icon" type="Image" href="https://www.shutterstock.com/image-vector/vector-color-camera-icon-logo-600nw-2643130659.jpg">
+    <!-- play cdn link through tailwand css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 py-8">
+    <!-- A parent container which have a six children inside the parent container -->
+     <!-- heading  -->
+      <div>
+        <h1 class="text-3xl text-center font-bold mb-6">Image Grid Gallery</h1>
+      </div>
+<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- image 1 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+        class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?1" alt="image 1">
+    </div>
+    <!-- image 2 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+         class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?2" alt="image 2">
+    </div>
+    <!-- image 3 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+         class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?3" alt="image 3">
+    </div>
+    <!-- image 4 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+         class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?4" alt="image 4">
+    </div>
+    <!-- image 5 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+         class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?5" alt="image 5">
+    </div>
+    <!-- image 6 -->
+    <div class="group overflow-hidden rounded-xl cursor-pointer ">
+        <img 
+         class="w-8/10 mx-auto md:w-full md:h-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-110"
+        src="https://picsum.photos/400?6" alt="image 6">
+    </div>
+</div>
+    
+</body>
+</html>
