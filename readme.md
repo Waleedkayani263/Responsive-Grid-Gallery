@@ -27,8 +27,6 @@ It showcases a clean layout with hover zoom effects, making it perfect for portf
 
 **HTML5**
 
-Responsive Design Principles
-
 # How to Run the Project
 
 Clone or download the project.
